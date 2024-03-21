@@ -1,8 +1,8 @@
-#include <stdio.h>
+О╩©#include <stdio.h>
 
 int main(void)
 {
-	// аж╪╝ ев╫╨ф╝
-	printf("╬хЁГ ╪╪╩С╬ф \n");
+	// Лё╪Л└² М┘▄Л┼╓М┼╦
+	printf("Л∙┬К┘∙ Л└╦Л┐│Л∙└ \n");
 	return 0;
 }

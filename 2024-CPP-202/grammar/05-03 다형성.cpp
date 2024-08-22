@@ -41,9 +41,9 @@ public:
 		cout << "충성도 " << endl;
 	}
 
-	void bark() { cout << "울프울프" << endl; }
-	void eat() { cout << "왕~왕~" << endl; }
-	void walk() { cout << "촵촵촵촵" << endl; }
+	void bark() override { cout << "울프울프" << endl; }
+	void eat() override { cout << "왕~왕~" << endl; }
+	void walk() override { cout << "촵촵촵촵" << endl; }
 private:
 	int loyalty_;
 };

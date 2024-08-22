@@ -13,7 +13,7 @@ public:
 		cout << "다리갯수 " << leg_num_ << endl;
 	}
 
-	~Animal()
+	virtual ~Animal()
 	{
 		cout << "Animal 소멸자" << endl;
 	}
@@ -46,7 +46,7 @@ public:
 		cout << "충성도 " << endl;
 	}
 
-	~Dog()
+	virtual ~Dog()
 	{
 		cout << "Dog 소멸자" << endl;
 	}
@@ -61,7 +61,7 @@ private:
 void main(void)
 {
 	Animal* animal = new Dog("마루", 5, 2, 100);
-	// 정적 바인딩으로 인해 Dog소멸자는 호출이 안됨
+	
 	delete animal;
 
 }

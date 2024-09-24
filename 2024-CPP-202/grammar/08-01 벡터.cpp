@@ -35,8 +35,10 @@ void main(void)
 	v.pop_back();
 	v.pop_back();
 
-	for (int i = 0; i < v.size(); i++)
-		cout << v[i] << endl;
+	// 반복자(iterator)
+	vector<long long>::iterator iter;
+	for (iter = v.begin(); iter != v.end(); iter++)
+		cout << *iter << endl;
 
 
 }

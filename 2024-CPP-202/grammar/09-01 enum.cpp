@@ -12,17 +12,17 @@ enum FoodStyle {
 void main(void)
 {
 	// 열거형을 사용하면 가독성도 좋아지고, 중간에 값을 유연하게 추가할 수 있다
-	int style = KOREAN;
+	int style = FoodStyle::KOREAN;
 
 	switch (style)
 	{
-	case KOREAN:
+	case FoodStyle::KOREAN:
 		cout << "김치, 쌈, 비빔밥" << endl;
 		break;
-	case JAPANESE:
+	case FoodStyle::JAPANESE:
 		cout << "초밥, 우동, 타코야끼" << endl;
 		break;
-	case CHINESE:
+	case FoodStyle::CHINESE:
 		cout << "동파육, 마라탕후루" << endl;
 		break;
 	}

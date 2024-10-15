@@ -12,10 +12,9 @@ void main(void)
 	money["수빈"] = 30000000000;
 	money["민선"] = 100;
 
-
 	// 반복자
-	map<string, long long>::iterator iter;
-	for (iter = money.begin(); iter != money.end(); iter++)
+	// map<string, long long>::iterator iter;
+	for (auto iter = money.begin(); iter != money.end(); iter++)
 		cout << iter->first <<"는 " << iter->second << endl;
 
 	// 값 수정

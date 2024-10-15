@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="grammar\08-02 맵.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="grammar\09-04 static.cpp">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

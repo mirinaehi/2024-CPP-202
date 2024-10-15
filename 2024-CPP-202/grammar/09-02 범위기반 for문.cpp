@@ -7,9 +7,9 @@ void main(void)
 {
 	vector<int> v = { 445, 14, 27, 456, 23 };
 
-	for (int i = 0; i < v.size(); i++)
+	for (int value : v)
 	{
-		cout << v[i] << endl;
+		cout << value << endl;
 	}
 
 
